@@ -1,31 +1,31 @@
 #include <iostream>
 using namespace std;
 
-// калькулятор с помощью switch_case
+// РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ СЃ РїРѕРјРѕС‰СЊСЋ switch_case
 
 int main()
 {
 	int var, a, b;
-	cout << "Введите число для var = "; cin >> var;
-	cout << "Введите число для a = "; cin >> a;
-	cout << "Введите число для b = "; cin >> b;
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РґР»СЏ var = "; cin >> var;
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РґР»СЏ a = "; cin >> a;
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РґР»СЏЛ™ b = "; cin >> b;
 
 	switch (var)
 	{
 		case 1:
-			cout << "Сумма = " << a + b;
+			cout << "РЎСѓРјРјР° = " << a + b;
 			break;
 		case 2:
-			cout << "Разность = " << a - b;
+			cout << "Р Р°Р·РЅРѕСЃС‚СЊ = " << a - b;
 			break;
 		case 3:
-			cout << "Произведение = " << a * b;
+			cout << "РџСЂРѕРёР·РІРµРґРµРЅРёРµ = " << a * b;
 			break;
 		case 4:
-			cout << "Деление = " << (double)a / b;
+			cout << "Р”РµР»РµРЅРёРµ = " << (double)a / b;
 			break;
 		default:
-			cout << "Такого варианта нет" << endl;
+			cout << "РўР°РєРѕРіРѕ РІР°СЂРёР°РЅС‚Р° РЅРµС‚" << endl;
 			break;
 	}
 }
